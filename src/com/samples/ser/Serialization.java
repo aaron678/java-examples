@@ -1,4 +1,4 @@
-package com.study.samples;
+package com.samples.ser;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
