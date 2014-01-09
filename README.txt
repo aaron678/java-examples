@@ -1,1 +1,0 @@
-Sample code for various Java features.
