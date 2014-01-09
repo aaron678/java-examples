@@ -17,14 +17,12 @@ public class ReflectionTest {
 		try {
 			clazz = Class.forName("com.samples.reflection.ReflectionTest");
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		Method method = null;
 		try {
 			method = clazz.getDeclaredMethod("testMethod", (Class[])null);
 		} catch (NoSuchMethodException | SecurityException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		try {
@@ -32,7 +30,6 @@ public class ReflectionTest {
 			System.out.println("Reflection test: " + result);
 		} catch (IllegalAccessException | IllegalArgumentException
 				| InvocationTargetException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
