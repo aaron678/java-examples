@@ -1,1 +1,7 @@
 Sample code for various Java features.
+
+Under src/com/samples/ there are the following samples:
+	enums- an interesting enum example which includes EnumMap, allowing the values of one enums to be mapped to the values of another enum.
+	io - example of Java 6 and Java 7 style file IO, including character, byte and buffered examples. Of interest are the try-with-resources syntax while automatically closes resources, no longer requiring the boilerplate finally clause to close resources.
+	reflection- how to call a method on an existing object using refelction.
+	serialization- a standard deserialize/ serialize example.
