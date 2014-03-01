@@ -74,7 +74,7 @@ public class Java7_IO_Test {
 			
 			int ch = 0;
 			//read() returns characters as integers, presumably to allow
-			//control of the while loop. Therefore, you need to case back
+			//control of the while loop. Therefore, you need to cast back
 			//to char for the write.
 			while ((ch = br.read()) != -1){
 				bw.write((char)ch);
